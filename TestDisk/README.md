@@ -21,7 +21,7 @@ Windows: Download the executable from the official CGSecurity website.
 <br>
 <br>
 <p align="center">
-<img width="1106" height="635" alt="image" src="https://github.com/user-attachments/assets/e8a9203d-b855-436d-93b1-acc965956c93" />
+<img width="735" height="406" alt="Image" src="https://github.com/user-attachments/assets/ed38f274-01aa-4442-abf2-fbf3133931ec" />
 
 </p>
 <br>
@@ -35,8 +35,7 @@ Windows: Download the executable from the official CGSecurity website.
 <br>
 <br>
 <p align="center">
-<img width="1098" height="635" alt="image" src="https://github.com/user-attachments/assets/ab73948e-e51b-40e4-8ee7-018213426f0e" />
-
+<img width="871" height="438" alt="Image" src="https://github.com/user-attachments/assets/9108b9e3-43a4-4ab9-913e-6dfcc0034dce" />
 </p>
 <br>
 <br>
@@ -50,7 +49,7 @@ Windows: Download the executable from the official CGSecurity website.
 <br>
 <br>
 <p align="center">
-<img width="1097" height="644" alt="image" src="https://github.com/user-attachments/assets/3c4156ec-95bc-400e-8bfb-8bfcf0d1955c" />
+<img width="706" height="416" alt="Image" src="https://github.com/user-attachments/assets/49b9875a-947f-4ced-9de2-067c739307cf" />
 
 </p>
 <br>
@@ -61,7 +60,7 @@ Windows: Download the executable from the official CGSecurity website.
 <br>
 <br>
 <p align="center">
-<img width="1103" height="633" alt="image" src="https://github.com/user-attachments/assets/6533e8ad-c50d-4d0e-85df-ed8d363c0218" />
+<img width="731" height="384" alt="Image" src="https://github.com/user-attachments/assets/443308d1-da06-4f41-82c5-df10ce88e73b" />
 
 </p>
 <br>
@@ -75,7 +74,7 @@ Windows: Download the executable from the official CGSecurity website.
 <br>
 <br>
 <p align="center">
-<img width="1098" height="637" alt="image" src="https://github.com/user-attachments/assets/c4d01faa-441c-4789-93d7-c8ac5b6ec88b" />
+<img width="709" height="491" alt="Image" src="https://github.com/user-attachments/assets/6d9a5491-9593-4b5b-9a94-0104db6cce1e" />
 </p>
 <br>
 <br>
@@ -92,7 +91,7 @@ Windows: Download the executable from the official CGSecurity website.
 -<br>
 <br>
 <p align="center"> 
-<img width="1099" height="637" alt="image" src="https://github.com/user-attachments/assets/5f7a6814-4f1d-425a-bd40-579ebc1a9671" />
+<img width="724" height="414" alt="Image" src="https://github.com/user-attachments/assets/20da86dd-a0f8-4eca-9893-42f5c2c109b7" />
 
 </p>
 <br>
@@ -114,7 +113,7 @@ Windows: Download the executable from the official CGSecurity website.
     <br>
 <br>
 <p align="center">
-<img width="1100" height="638" alt="image" src="https://github.com/user-attachments/assets/bec038c0-7c0d-4e7c-a0a0-84dbeee45bae" />
+<img width="719" height="509" alt="Image" src="https://github.com/user-attachments/assets/c3308dd1-dda5-4a22-a6fb-c382936109ab" />
 
 </p>
 <br>
@@ -128,7 +127,7 @@ Windows: Download the executable from the official CGSecurity website.
 <br>
 <br>
 <p align="center">
-<img width="1089" height="643" alt="image" src="https://github.com/user-attachments/assets/0c163668-bbd8-4220-a926-8255f93e49a0" />
+<img width="741" height="510" alt="Image" src="https://github.com/user-attachments/assets/feb01325-13b6-45e3-9ace-e17ff44114f7" />
 
 <br>
 <br>
@@ -138,7 +137,7 @@ Windows: Download the executable from the official CGSecurity website.
 <br>
 <br>
 <p align="center">
-  <img width="1101" height="637" alt="image" src="https://github.com/user-attachments/assets/bfcaefe2-abce-44ee-b6e6-b9e9fd25bcc4" />
+ <img width="806" height="387" alt="Image" src="https://github.com/user-attachments/assets/cdc35247-fd24-4469-bad4-1f1ae1a0e30a" />
 
 </p>
 <br>
