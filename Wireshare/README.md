@@ -1,75 +1,91 @@
+#   Ex.No.3   Wireshark – Network Packet Capture and Analysis Tool
 
-**EXPERIMENT -3**
 
-**Wireshark**
+## Procedure: Capturing Plaintext Passwords
 
-**Network Packet Capture and Analysis Tool**
+### Step 1: Start Capturing Packets
+- First, open Wireshark. You will see a list of all available network interfaces (e.g., "Wi-Fi," "Ethernet").
 
-**Installation:**
 
-**Windows:** <https://www.wireshark.org/download.html>
+- Select the interface your computer is using to connect to the internet (in this case, Wi-Fi).
 
-**Mac :** <https://www.wireshark.org/download.html>
+  <br>
+   <br>
+  <p align="center">
+  <img width="1155" height="688" alt="image" src="https://github.com/user-attachments/assets/28b8635a-a3d2-4efc-9ed4-ab4b39f96ce5" />
 
-**Linux:** preinstalled in kali else download source code from same
-website
+  </p>
+  <br>
+  <br>
 
-**Procedure:**
+- Click the blue shark fin icon 🦈 in the top-left corner to start the capture. Wireshark will immediately begin capturing all traffic passing through that interface.
+ <br>
+   <br>
+  <p align="center">
+  <img width="1919" height="1022" alt="image" src="https://github.com/user-attachments/assets/fe34867f-be37-49ee-b73d-c87bc3f51c76" />
+ </p>
+  <br>
+  <br>
 
-**Step 1: Start Capturing Packets**
+  ### Step 2: Generate Login Traffic
+  - Open a web browser and navigate to http://testphp.vulnweb.com/login.php.
 
--   First, open Wireshark. You will see a list of all available network
-    interfaces (e.g., \"Wi-Fi,\" \"Ethernet\").
+- Enter any dummy credentials. For this example, we'll use:
 
--   Select the interface your computer is using to connect to the
-    internet (in this case, Wi-Fi).
+   Username: darling
 
--   Click the blue shark fin icon 🦈 in the top-left corner to start the
-    capture. Wireshark will immediately begin capturing all traffic
-    passing through that interface.
+   Password: measatest143
 
-> **Step 2: Generate Login Traffic**
+- Click the login button. The login will fail, but the data has already been sent across the network.
 
--   Open a web browser and navigate
-    to <http://testphp.vulnweb.com/login.php>.
+ <br>
+   <br>
+  <p align="center">
+<img width="1916" height="905" alt="image" src="https://github.com/user-attachments/assets/bf27fed5-fe0c-47d5-91e2-f4e7dbea9685" />
 
--   Enter any dummy credentials. For this example, we\'ll use:
+ </p>
+  
+  
+### step 3: Stop Capture and Filter Traffic
 
-Username: testuser
+- Return to Wireshark and click the Stop button (the red square).
 
-Password: password123
+- In the display filter bar, you need to find the packet containing the login data. Since the form data was sent to the server, we will look for an HTTP POST request.
 
--   Click the login button. The login will fail, but the data has
-    already been sent across the network.
+- Apply the following filter to find the exact packet and press Enter:
 
-**step 3: Stop Capture and Filter Traffic**
+ <br>
+   <br>
+  <p align="center">
+<img width="1919" height="517" alt="image" src="https://github.com/user-attachments/assets/24898bfb-4f11-4c3c-83aa-ac994cb3fdde" />
 
--   Return to Wireshark and click the Stop button (the red square).
+ </p>
+  <br>
+  <br>
 
--   In the display filter bar, you need to find the packet containing
-    the login data. Since the form data was sent to the server, we will
-    look for an HTTP POST request.
+### step 4: Inspect the Packet to Find Credentials 
 
--   Apply the following filter to find the exact packet and press Enter:
+- In the filtered packet list, you should see a packet with information like "POST /userinfo.php". Select this packet.
 
-**step 4: Inspect the Packet to Find Credentials**
+- In the Packet Details pane below the list, expand the following sections:
 
--   In the filtered packet list, you should see a packet with
-    information like \"POST /userinfo.php\". Select this packet.
+Hypertext Transfer Protocol
 
--   In the Packet Details pane below the list, expand the following
-    sections:
+HTML Form URL Encoded
 
-Hypertext Transfer Protocol HTML Form URL EncodedInside the \"HTML Form
-URL Encoded\" section, you will see the credentials you entered in
-plaintext.
+- Inside the "HTML Form URL Encoded" section, you will see the credentials you entered in plaintext.
 
-**Result**
+ <br>
+   <br>
+  <p align="center">
+  <img width="921" height="561" alt="image" src="https://github.com/user-attachments/assets/b4403935-01b3-4678-81c9-bd1ad67c05bf" />
+ </p>
+  <br>
+  <br>
 
-The experiment successfully intercepts the login credentials in a
-human-readable format. The analysis of the captured POST packet reveals
-the plaintext data that was transmitted over the network:
+---
 
-This result confirms the inherent security flaw of the HTTP protocol.
-Any sensitive data sent over HTTP is transmitted openly, making it
-trivial to intercept.
+## Result
+The experiment successfully intercepts the login credentials in a human-readable format. The analysis of the captured POST packet reveals the plaintext data that was transmitted over the network:
+
+This result confirms the inherent security flaw of the HTTP protocol. Any sensitive data sent over HTTP is transmitted openly, making it trivial to intercept.
