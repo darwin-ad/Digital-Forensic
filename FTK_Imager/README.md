@@ -51,7 +51,7 @@ A dialog box will appear where you configure where and how the memory will be sa
 <br>
 <br>
 
-<img width="1089" height="733" alt="image" src="https://github.com/user-attachments/assets/063d0880-5649-46b7-aa7f-49d958acf63b" />
+<img width="1003" height="553" alt="Image" src="https://github.com/user-attachments/assets/87b22b32-c967-4964-8deb-afc60dd73ad1" />
 
  
 <br>
@@ -63,7 +63,7 @@ A dialog box will appear where you configure where and how the memory will be sa
 <br>
 
 
-<img width="1090" height="732" alt="image" src="https://github.com/user-attachments/assets/73069610-1704-424b-a0bb-c74981d19b02" />
+<img width="1002" height="557" alt="Image" src="https://github.com/user-attachments/assets/4bf0cdf4-b11b-4ef9-b335-235d078eefbb" />
 
 <br>
 <br>
@@ -138,8 +138,6 @@ A window will appear asking you to choose the source type:
 <br>
 <br>
 <p align="center">
-<img width="1091" height="735" alt="image" src="https://github.com/user-attachments/assets/11927a3a-6d4b-4017-be40-1cbbfc38800a" />
-
 </p>
 <br>
 <br>
@@ -148,7 +146,7 @@ A window will appear asking you to choose the source type:
   - Enter case details, examiner name, and description.  
   - This information is stored in the image metadata (important for documentation).
  <p align="center">
-<img width="1088" height="741" alt="image" src="https://github.com/user-attachments/assets/ebaa67c1-e547-4cd0-9192-15df051cf0ed" />
+<img width="517" height="385" alt="Image" src="https://github.com/user-attachments/assets/b087c711-5168-496c-989e-2d8889424da4" />
 
 </p>
 <br>
@@ -165,7 +163,7 @@ A window will appear asking you to choose the source type:
   <br>
   
 <p align="center">
-<img width="1090" height="738" alt="image" src="https://github.com/user-attachments/assets/15e6e39a-3dec-44c7-a20d-e059c6dade7b" />
+<img width="492" height="361" alt="Image" src="https://github.com/user-attachments/assets/aeb02b0e-8ed0-4a3d-be7b-8fd840a2226b" />
 </p>
 <br>
 <br>
@@ -178,9 +176,6 @@ A window will appear asking you to choose the source type:
   <br>
   <br>
   <p align="center">
- <img width="1088" height="734" alt="image" src="https://github.com/user-attachments/assets/14975271-7978-410f-b4f4-f2a63c328048" />
-
-  <img width="1093" height="733" alt="image" src="https://github.com/user-attachments/assets/944f873f-a792-48ff-884c-d26afa6ec57b" />
 
 </p>
 <br>
